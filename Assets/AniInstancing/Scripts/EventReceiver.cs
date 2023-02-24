@@ -24,7 +24,7 @@ public class EventReceiver : MonoBehaviour {
     static string log = "Receive Event";
     public void NewEvent(AnimationInstancing.AnimationEvent evt)
     {
-        //Debug.Log(log);
-        //Debug.Log("PrintEvent: " + evt.stringParameter + " called at: " + Time.time);
+        //Log.D(log);
+        //Log.D("PrintEvent: " + evt.stringParameter + " called at: " + Time.time);
     }
 }
